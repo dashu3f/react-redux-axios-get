@@ -1,2 +1,3 @@
 # react-redux-axios-get
-work
+I Hope to help you
+combine react & redux & axios to get file from json 
