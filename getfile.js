@@ -6,54 +6,6 @@ import AppRouter from '../routers/AppRouter';
 import axios from 'axios';
 
 
-// class MyComponent extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       error: null,
-//       isLoaded: false,
-//       items: []
-//     }
-//   }
-
-//   componentDidMount() {
-//     axios.get("http://www.json-generator.com/api/json/get/cfYCxYCwGG?indent=2")
-//       .then(res => res.json())
-//       .then(
-//         (result) => {
-//           this.setState({
-//             isLoaded: true,
-//             items: result
-//         });
-//       },
-//       (error) => {
-//         this.setState({
-//           isLoaded: true,
-//           error
-//         });
-//       }
-//     )
-//   }
-//   render(){
-//     const {error, isLoaded, items} = this.state;
-//     const store = configureStore();
-//     if(error){
-//       return <div>Error: {error.message}</div>
-//     } else if(!isLoaded) {
-//       return <div>Loading...</div>
-//     } else {
-//       return (
-//         items.map(item => (
-//           store.dispatch(addExpense({ description: item.first_name, note: item.last_name, amount: item.age, createAt: item.phone_number }))
-//         )),
-//         <Provider store={store}>
-//           <AppRouter/>
-//         </Provider>
-//       );
-//     }
-//   }
-// }
-
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
